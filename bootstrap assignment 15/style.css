@@ -1,0 +1,106 @@
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    box-sizing: border-box;
+}
+
+.custom-links {
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    padding: 6px;
+}
+
+.header-btn {
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.navbar-brand {
+    padding-right: 40px;
+}
+
+.dark {
+    padding: 7px;
+    width: 150px;
+    border-radius: 30px;
+    margin-left: 230px;
+    margin-top: -70px;
+}
+
+.form-control {
+    height: 40px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.card-image {
+    border: none;
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/008/079/335/small/empty-showcase-abstract-pastel-color-background-3d-illustration-free-vector.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.image {
+    width: 60px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-rate {
+    width: 20px;
+}
+
+.card li {
+    list-style-type: none;
+    display: inline;
+}
+
+.custom-btn {
+    width: 140px;
+    border-radius: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.image-side {
+    border-radius: 10px;
+}
+
+section {
+    box-sizing: border-box;
+}

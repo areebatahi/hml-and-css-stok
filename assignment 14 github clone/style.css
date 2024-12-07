@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0d1117 !important;
+}
+
+nav a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    background-color: #0d1117;
+
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-items-start {
+    align-items: flex-start !important;
+}
+
+.flex-justify-start {
+    justify-content: flex-start !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+h1 {
+    color: white;
+    font-size: 50px !important;
+    line-height: 60px !important;
+    letter-spacing: 0.04em !important;
+}
+
+.color-light {
+    color: white;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+p,
+.btn {
+    font-size: 20px !important;
+    line-height: 28px !important;
+}
+
+.container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.card {
+    border: 1px gray solid;
+    box-shadow: 0.2px 0.2px 5px gray;
+    background-color: black;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.para {
+    color: white;
+}
+
+.container-two {
+    padding-top: 30px;
+    padding-left: 10px;
+    line-height: 5px;
+}
+
+.box {
+    padding-top: 30px;
+}
+
+.container-two a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.container-two p {
+    color: gray;
+    font-size: 10px;
+}
+
+.container-heading {
+    font-weight: 400;
+    letter-spacing: normal;
+    word-spacing: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.custom-card {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    text-align: left !important;
+    padding: 40px 30px;
+    background-color: white;
+    color: black !important;
+}
+
+.background-image {
+    background-image: url(https://img.freepik.com/premium-vector/background-6_992209-37.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: color-burn;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h4 {
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(133, 133, 133) !important;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+.links-text span{
+    padding-right: 30px;
+}
+
+.links-text a{
+    padding-right: 30px;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}

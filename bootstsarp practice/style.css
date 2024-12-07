@@ -1,0 +1,115 @@
+.navbar {
+    height: 45px;
+    /* position: fixed; */
+}
+
+.nav-link {
+    color: white !important;
+    padding-right: 10px !important;
+}
+
+.nav-item:hover {
+    background-color: gray;
+}
+
+.hover:hover {
+    background-color: red;
+}
+
+.card {
+    margin-top: 90px !important;
+    margin-bottom: 30px !important;
+    margin: auto;
+    border: none;
+    border-radius: 0px;
+}
+
+.col {
+    height: auto;
+}
+
+.card-btn {
+    border-radius: 0px;
+    border: none;
+}
+
+.card-btn:hover {
+    background-color: gray;
+    border: none;
+}
+
+.card-img-top:hover {
+    opacity: 0.5;
+}
+
+.card-body li {
+    list-style-type: none;
+    border-bottom: 1px gray solid;
+    padding: 5px;
+}
+
+.gray {
+    color: gray;
+}
+
+.btn-danger {
+    border-radius: 0;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+.tag {
+    border: 1px black solid;
+    color: white;
+    background-color: black;
+    border-radius: 350px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-fluid {
+    padding: 5px 15px 5px 10px;
+}
+
+.body li {
+    list-style-type: none;
+    border: none;
+}
+
+.body {
+    display: flex;
+}
+
+.form input {
+    margin: 10px;
+    border-radius: 0;
+}
+input{
+    border: 1px gray solid;
+}
+footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer li{
+    padding: 5px;
+    list-style: none;
+}
+
+.image ul{
+    display: flex;
+    justify-content: center;
+}
+.w3-medium{
+    text-align: center;
+    padding-top: 10px;
+    color: gray;
+}
+.w3-medium a{
+    color: gray;
+}

@@ -1,0 +1,823 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header li {
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header ul img {
+    width: 20px;
+}
+
+.links li {
+    padding: 30px;
+}
+
+.social-media li {
+    padding: 3px;
+}
+
+.three-lines {
+    display: none;
+    width: 10px;
+
+}
+
+header button {
+    color: white;
+    background-color: #17a2b8;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+video {
+    width: 100%;
+}
+
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+h1,
+p,
+button {
+    margin: 50px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+#para {
+    font-size: 30px;
+}
+
+.main-body button {
+    color: white;
+    background-color: #17a2b8;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+}
+
+.background-vedio {
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    left: 0;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+.main-specail {
+    background-image: url(imaage/2.jpg);
+    background-repeat: no-repeat;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-specail img {
+    width: 250px;
+    height: 230px;
+}
+
+.main-specail figcaption {
+    text-align: center;
+}
+
+
+.main-green-background {
+    background-image: url(https://t3.ftcdn.net/jpg/06/81/72/52/360_F_681725287_o458uNRANFCCHdxgwe9PkFDse77oBT88.jpg);
+    background-repeat: no-repeat;
+    background-color: #1adbf9e0;
+    background-blend-mode: overlay;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+
+.box {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px white solid;
+    width: 700px;
+    height: 500px;
+}
+
+.box img {
+    width: 70px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.box image,
+h3,
+p {
+    padding: 5px;
+    display: flex;
+}
+
+button {
+    padding: 15px;
+    border: 2px white solid;
+    border-radius: 30px;
+    background-blend-mode: color-burn;
+    background-color: #1adbf9e0;
+    color: white;
+    width: 200px;
+}
+
+.main-Creations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-Creations td>img {
+    width: 250px;
+    height: 230px;
+}
+
+img {
+    width: 70px;
+}
+
+.main-recipes {
+    background-image: url(https://www.artworkcrafts.com/cdn/shop/products/1_13_5a32e58c-9d9a-4a90-8e35-b6a273d7ea0e_1200x1200.jpg?v=1684795576);
+    background-repeat: no-repeat;
+    background-color: #fffffff1;
+    background-blend-mode: overlay;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+}
+
+.image1 {
+    width: 100px;
+}
+
+.image2 {
+    width: 100px;
+    border-radius: 150px;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+.main-Client {
+    background-image: url(https://www.artworkcrafts.com/cdn/shop/products/1_13_5a32e58c-9d9a-4a90-8e35-b6a273d7ea0e_1200x1200.jpg?v=1684795576);
+    background-repeat: no-repeat;
+    background-color: #fd6bfff7;
+    background-blend-mode: overlay;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-Client div {
+    /* border: 1px black solid; */
+    width: 900px;
+    height: 200px;
+}
+
+.main-client-oneandtwo {
+    display: flex;
+}
+
+.main-client-threeandfour {
+    display: flex;
+}
+
+.main-Client p {
+    text-align: start;
+    display: inline-block;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+
+
+
+.tables {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-cake td,
+th {
+    padding: 50px;
+    border-bottom: 3px solid rgb(186, 186, 186);
+}
+
+.box-1 {
+    background-color: #eaeaea;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.box-1 h2 {
+    color: black;
+    font-size: 30px;
+}
+
+.box-1 p {
+    color: #17a2b8;
+}
+
+
+.main-last-sweet {
+    background-image: url(imaage/bakery3-2-1200x800.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-color: #eeeeee75;
+    padding: 96px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.main-last-sweet h1 {
+    font-size: 60px;
+}
+
+.main-last-sweet input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.paraa-part {
+    font-weight: bold;
+}
+
+.social-media-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram {
+    width: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.social {
+    width: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+
+footer {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: black;
+}
+
+.first-footer {
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer img {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+footer ul img {
+    width: 20px;
+}
+
+.links-footer li {
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:100px) and (max-width:500px) {
+    header {
+        justify-content: space-around;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .three-lines {
+        display: block
+    }
+
+    header img {
+        width: 10vw;
+        top: 10px;
+        left: 10px;
+    }
+
+
+    h1,
+    p,
+    button {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #para {
+        font-size: 10px;
+    }
+
+    .main-body button {
+        color: white;
+        background-color: #17a2b8;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        width: 150px;
+    }
+
+
+    .background-vedio {
+        top: 60px;
+        left: 0;
+    }
+
+    video {
+        width: 100vw;
+        /* height: 6vw; */
+    }
+
+    .main-specail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 70vw;
+        height: 500px;
+    }
+
+    .main-recipes {
+        background-size: 100vw 700px;
+    }
+
+    .image1 {
+        width: 50px;
+    }
+
+    .image2 {
+        width: 100px;
+        border-radius: 150px;
+    }
+
+    .main-Client {
+        flex-direction: column;
+        height: 1000px;
+        background-size: 100% 1000px;
+    }
+
+    .main-Client div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-Client p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .main-client-oneandtwo {
+        flex-direction: column;
+    }
+
+    .main-client-threeandfour {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .main-Client div {
+        width: 70vw;
+        height: 300px;
+    }
+
+    .tables {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main-cake td,
+    th {
+        padding: 20px;
+        border-bottom: 3px solid rgb(186, 186, 186);
+        width: 60px;
+    }
+
+    .tables table tr {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box-1 {
+        height: 200px;
+    }
+
+    .main-last-sweet {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-last-sweet h1 {
+        font-size: 40px;
+    }
+
+    .main-last-sweet input {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:500px) and (max-width:1000px) {
+    header {
+        justify-content: space-around;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .three-lines {
+        display: block
+    }
+
+    header img {
+        width: 70px;
+        top: 10px;
+    }
+
+
+    h1,
+    p,
+    button {
+        margin: 40px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #para {
+        font-size: 10px;
+    }
+
+    .main-body button {
+        color: white;
+        background-color: #17a2b8;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        width: 150px;
+    }
+
+    .background-vedio {
+        top: 70px;
+        left: 0;
+    }
+
+    video {
+        width: 100vw;
+        /* height: 90vw; */
+        right: 0;
+        left: 0;
+    }
+
+    .main-specail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 70vw;
+        height: 500px;
+    }
+
+    .main-recipes {
+        background-size: 100vw 700px;
+    }
+
+    .image1 {
+        width: 50px;
+    }
+
+    .image2 {
+        width: 100px;
+        border-radius: 150px;
+    }
+
+    .main-Client {
+        flex-direction: column;
+        height: 1200px;
+        background-size: 100% 1200px;
+    }
+
+    .main-Client div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-Client p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .main-client-oneandtwo {
+        flex-direction: column;
+    }
+
+    .main-client-threeandfour {
+        flex-direction: column;
+        margin-top: 140px;
+    }
+
+    .main-Client div {
+        width: 70vw;
+        height: 300px;
+    }
+
+    .tables {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main-cake td,
+    th {
+        padding: 30px;
+        border-bottom: 3px solid rgb(186, 186, 186);
+        width: 70px;
+    }
+
+    .tables table tr {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box-1 {
+        height: 300px;
+    }
+
+    .main-last-sweet {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-last-sweet h1 {
+        font-size: 40px;
+    }
+
+    .main-last-sweet input {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1000) {
+    header {
+        justify-content: space-between;
+    }
+
+    .links {
+        display: block;
+    }
+
+    .social-media {
+        display: block;
+    }
+
+    .button {
+        display: block;
+    }
+
+    .three-lines {
+        display: none;
+    }
+
+    .main-specail {
+        background-size: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .main-specail img {
+        width: 250px;
+        height: 230px;
+    }
+}
